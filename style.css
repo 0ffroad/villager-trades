@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  padding: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+}
+h1 {
+  text-align: center;
+}
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.villager-info {
+  margin-top: 24px;
+}
+.trade-tier {
+  background: #f0f0f0;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+.trade-tier h3 {
+  margin-top: 0;
+}
+.trade-list {
+  margin-left: 16px;
+}
+.tip {
+  background: #e0ffe0;
+  padding: 10px;
+  border-left: 5px solid #4caf50;
+  margin-top: 12px;
+  border-radius: 8px;
+}
