@@ -45,3 +45,35 @@ select {
   margin-top: 12px;
   border-radius: 8px;
 }
+:root {
+  --bg: #f5f5f5;
+  --text: #333;
+  --card-bg: white;
+  --accent: #e0ffe0;
+}
+
+[data-theme='dark'] {
+  --bg: #1e1e1e;
+  --text: #f0f0f0;
+  --card-bg: #2c2c2c;
+  --accent: #2e7d32;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.5s, color 0.5s;
+}
+
+.container {
+  background: var(--card-bg);
+  transition: background 0.5s;
+}
+
+.trade-tier {
+  background: var(--bg);
+}
+
+.tip {
+  background: var(--accent);
+}

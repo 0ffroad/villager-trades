@@ -21,3 +21,12 @@ document.getElementById("villagerSelect").addEventListener("change", function ()
     infoDiv.appendChild(tipBox);
   });
 });
+
+function toggleDarkMode() {
+  const current = document.documentElement.getAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', current === 'dark' ? 'light' : 'dark');
+}
+
+function changeLanguage(lang) {
+  alert('Language change is not implemented yet, selected: ' + lang);
+}
